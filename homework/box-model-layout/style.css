@@ -1,0 +1,36 @@
+.container {
+	width: 60%;
+	background: grey;
+	text-align: center;
+	padding: 40px;
+	margin: 0 auto;
+
+}
+
+#nav {
+	background: black;
+	padding:10px;
+
+}
+
+.p-one {
+	color: blue;
+}
+
+.p-two {
+	color: green;
+}
+
+.p-three {
+	color: yellow;
+}
+
+p {
+	background: orange;
+	padding: 30px 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
