@@ -1,0 +1,155 @@
+/*// FONT FAMILY HELPERS :)
+// font-family: 'Oswald', sans-serif;
+// font-family: 'Merriweather', serif;
+// font-family: 'Source Sans Pro', sans-serif;
+*/
+body, h1, h2, h3 p {
+	margin: 0;
+}
+
+#wrapper {
+	font-family: 'Oswald', sans-serif;
+/*//  font-family: 'Merriweather', serif;
+//  font-family: 'Source Sans Pro', sans-serif;*/
+
+}
+
+
+
+
+#header {
+	padding: 10px 40px;
+	overflow: auto;
+	background-color: #000;
+}
+
+h1 {
+	font-family: 'Merriweathe', serif;
+	font-weight: 400;
+	color: yellow;
+	float: left;
+
+}
+
+h2 {
+	font-family: "Merriweather", serif;
+	font-size: 25px;
+}
+
+.tagline {
+	background-color: #C6C6C6;
+	font-family: "Merriweather", serif;
+	font-size: 24px;
+	font-weight: 700;
+	font-style: italic;
+	text-align: center;
+	padding: 16px;
+	margin: 0;
+	border-top: 4px solid yellow;
+}
+
+.taste {
+	color: #7b7b7b;
+	text-decoration: line-through;
+}
+
+.are {
+	border-bottom: 2px solid yellow;
+}
+
+#nav a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 20px;
+}
+
+#nav {
+	float: right;
+}
+
+#main {
+	margin-top: 0;
+	background: url('../img/coworking.jpg') no-repeat center;
+	background-size: 100%;
+	clear: both;
+	overflow: auto;
+}
+
+#main .box {
+	background-color: rgba(235,229,229, 0.9);
+	margin: 100px;
+	padding: 60px 40px;
+	text-align: left;
+	width: 400px;
+	height: 200px;
+	float: right;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.5;
+}
+
+#main .box h2{
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+}
+
+#article {
+	margin: 0 auto;
+	display: inline-block;
+	position: relative;
+	padding: 40px 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	line-height: 1.5;
+}
+
+.article1, .article2 {
+	float: left;
+	width: 27%;
+	border-right: #c6c6c6 solid 1px;
+	padding: 40px;
+}
+
+.article3 {
+	float: right;
+	width: 28%;
+	padding: 40px;
+}
+
+.clear {
+	clear: both;
+}
+
+
+button {
+	width: 100%;
+	background-color: #c6c6c6;
+	border: none;
+	border-radius: 5px;
+    box-shadow: 4px 4px 2px #7b7b7b;
+	color: #000;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+
+    display: inline-block;
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#main button {
+	background-color: yellow;
+}
+
+
+footer {
+	background-color: #000;
+	color: #fff;
+	padding: 20px 40px;
+	font-weight: 400;
+}
+
+footer .p {
+	float: left;
+	}
