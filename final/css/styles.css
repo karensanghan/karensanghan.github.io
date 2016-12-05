@@ -1,0 +1,289 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 400;
+	background: rgba(251, 250, 240, 1);
+	font-size: 20px;
+	line-height: 1.5;
+	cursor: default;
+}
+
+
+.logo {
+	float: left;
+    display: inline-block;
+    vertical-align: top;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-top: -10px; 
+}
+
+.wrapper {
+	max-width: 1280px;
+	margin: auto;
+}
+
+h1 {
+	font-size: 2em;
+	line-height: 1;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: bold;
+	color: rgb(233, 125, 129);
+}
+
+h3 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.25em;
+	font-weight: bold;
+	color: rgb(233, 125, 129);
+	padding-bottom: 20px;
+	text-transform: uppercase;
+}
+
+p {
+	margin: 0 0 1.5em 0;
+	color: rgb(120, 92, 37);
+
+}
+
+.button {
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: rgb(333, 125, 129);
+	display: block;
+	text-align: center;
+	padding: 12px;
+	border: 2px solid rgb(333, 125, 129);
+	width: 60%;
+}
+
+#page-header {
+	background: rgba(251, 250, 240, 1);
+	color: 	color: rgba(181, 160, 123, 1);
+	overflow: hidden;
+	padding: 0 3%;
+}
+
+#page-header a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#page-header h1 {
+	float: left;
+	margin: 20px 0 0 0;
+}
+
+#page-header nav {
+	float: right;
+}
+
+#page-header nav li {
+	padding-top: 6%;
+	float: left;
+}
+
+#page-header nav a {
+	color: rgba(181, 160, 123, 1);
+	display: block;
+	padding: 20px 15px;
+}
+
+#page-header nav li a:hover {
+	color: rgb(233, 125, 129);
+}
+
+#page-header nav strong {
+	font-family: 'Josefin Sans', sans-serif;
+	text-transform: uppercase;
+}
+
+.banner {
+	background: url(../img/img_025.jpg) center center no-repeat;
+	background-size: cover;
+;
+	overflow: hidden;
+	padding: 3%;
+}
+
+.homeBlurb {
+	background: rgba(255,255,255,.8);
+	width: 34%;
+	margin: 0 auto;
+	padding: 4%;
+	float: right;
+}
+
+.touts {
+	background: rgba(251, 250, 240, 1);
+	overflow: hidden;
+	padding: 2% 0;
+}
+
+.tout {
+	float: left;
+	width: 19%;
+	padding: 2% 3%;
+}
+
+.tout .button {
+	color: rgb(120, 92, 37);
+	background: rgba(251, 250, 240, 1);
+	border: 2px solid rgb(120, 92, 37);
+	width: 80%;
+}
+
+.imgBox {
+	width: 100%
+}
+
+
+/*Gallery*/
+
+#gallery {
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+#gallery .grid-item { 
+	margin: 0 auto;
+	max-width: 24.5%;
+}
+
+
+
+/*About*/
+
+#about {
+	margin: 0 auto;
+	display: block;
+	max-width: 900px;
+	padding-left:50px;
+}
+
+
+
+#about .about {
+	max-width: 200px;
+	float: left;
+}
+
+
+
+#about .blurb {
+	max-width: 600px;
+	padding: 0 0 0 4%;
+	background-color: rgba(251, 250, 240, 1);
+	float: left;
+}
+
+
+
+/*class*/
+
+
+.classInfo {
+	max-width: 80%;
+	margin: 0 auto;
+	padding-bottom: 26%;
+	padding-left: 10%;
+
+}
+
+.beginners {
+	float: left;
+	display: block;
+	width: 400px;
+}
+
+.blurb {
+	float: left;
+	max-width: 40%;
+	padding: 0 0 0 5%;
+	display: block;
+}
+
+h4 {
+	font-size: 1.1em;
+	font-weight: bold;
+	color: rgb(233, 125, 129);
+	padding-bottom: 20px;
+}
+
+
+
+/*contact*/
+
+#map {
+   width: 100%;
+   height: 400px;
+   background-color: grey;
+}
+
+.address {
+	margin: 0 auto;
+	text-align: center;
+}
+
+.address p {
+	margin: 0 0 .5em 0;
+}
+
+.address h3 {
+	padding: 5% 0 0 0 ;
+}
+
+
+footer {
+	background: rgba(99, 99, 99, 1);
+	color: white;
+	padding: 2% 3%;
+	text-align: center;
+	margin: 6% 0 0 0;
+	clear: both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
